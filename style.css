@@ -1,0 +1,38 @@
+<style>
+    .container{
+        background-color: cornflowerblue;
+    }
+    div{
+        height: 200px;
+        width: 200px;
+        }
+      
+    #second{
+        background-color:rgb(111, 18, 182) ;
+        position: relative;
+        right: 20px;
+    }
+    #third{
+        background-color: hotpink;
+        position: relative;
+        right: 20px;
+    }
+    #first{
+        background-color: rgb(109, 173, 109);
+        position: relative;
+        left: 50px;
+        }
+        input{
+            font-weight: 700;
+            font-size: 30px;
+            color: blueviolet;
+        }
+        li:nth-child(2n){
+            color: royalblue;
+            background-color: indianred;
+        }
+        li:nth-child(2n+1){
+            color: brown;
+            background-color: steelblue;
+        }
+</style>
